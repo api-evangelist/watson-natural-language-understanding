@@ -23,6 +23,10 @@ apis:
       - type: Documentation
         url: https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding
 common:
+  - type: VulnerabilityDisclosure
+    url: security/watson-natural-language-understanding-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/watson-natural-language-understanding-domain-security.yml
   - type: Website
     url: https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding
   - type: PublicAPIsListing
