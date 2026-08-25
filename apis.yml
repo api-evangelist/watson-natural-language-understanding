@@ -12,37 +12,44 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/watson-natural-language-understanding.png
 name: Watson Natural Language Understanding
-description: "Natural language processing for advanced text analysis"
+description: Natural language processing for advanced text analysis
 url: https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding
 specificationVersion: '0.23'
 created: '2026-05-28'
-modified: '2026-05-28'
+modified: '2026-08-21'
 x-source: public-apis/public-apis
-x-category: "Text Analysis"
+x-category: Text Analysis
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Text Analysis
-  - Public APIs
+- Text Analysis
+- Public APIs
 apis:
-  - name: Watson Natural Language Understanding
-    description: "Natural language processing for advanced text analysis"
-    humanURL: https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding
-    baseURL: https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding
-    tags:
-      - Text Analysis
-    properties:
-      - type: Documentation
-        url: https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding
-common:
-  - type: VulnerabilityDisclosure
-    url: security/watson-natural-language-understanding-vulnerability-disclosure.yml
-  - type: DomainSecurity
-    url: security/watson-natural-language-understanding-domain-security.yml
-  - type: Website
+- name: Watson Natural Language Understanding
+  description: Natural language processing for advanced text analysis
+  humanURL: https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding
+  baseURL: https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding
+  tags:
+  - Text Analysis
+  properties:
+  - type: Documentation
     url: https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding
-  - type: PublicAPIsListing
-    url: https://github.com/public-apis/public-apis
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/ibm/
+  name: Ibm
+  x-relationship: acquisition
+  x-generated-by: ibm-family:2026-08-21
+- type: VulnerabilityDisclosure
+  url: security/watson-natural-language-understanding-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/watson-natural-language-understanding-domain-security.yml
+- type: Website
+  url: https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding
+- type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
+x-parent: ibm
+x-relationship: acquisition
