@@ -39,7 +39,6 @@ apis:
 - name: Watson Natural Language Understanding
   description: Natural language processing for advanced text analysis
   humanURL: https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding
-  baseURL: https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding
   tags:
   - Text Analysis
   properties:
